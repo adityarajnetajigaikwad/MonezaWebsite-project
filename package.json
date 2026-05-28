@@ -1,0 +1,31 @@
+{
+  "name": "fsp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie": "^1.1.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.2",
+    "mysql2": "^3.22.3",
+    "next": "16.2.6",
+    "nodemailer": "^8.0.7",
+    "pg": "^8.20.0",
+    "pg-hstore": "^2.3.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4"
+  }
+}
